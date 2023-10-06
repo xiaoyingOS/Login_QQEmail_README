@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>123_BetaCode项目使用说明</title>
+</head>
+<style>
+    body{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    div{
+        margin: 0 auto; /* 将左右外边距设置为 auto，实现水平居中 */
+        background-color: rgb(44,177,68);
+        text-align: center; /* 内容水平居中 */
+    }
+</style>
+<body>
+    <span style="color: #ff0000;">项目地址：<a href="https://github.com/xiaoyingOS/Login_QQEmail" target="_blank" style="color: blue;">👉GitHub项目地址🐬</a></span>
+    <br>
+    <div>
+        <br>
+        1. 申请域名 (可以在eu.org申请永久免费域名) -> 链接：<a href="https://nic.eu.org/" target="_blank">👉eu.org🐬</a>【这个网址注册的域名 需要等半个多月才能得到，有钱的话也可以直接去买域名】
+        <br>
+        需要用到mg地址 -> 链接：<a href="https://www.meiguodizhi.com/" target="_blank">👉随机生成mg地址🐬</a>
+        <br>
+        <br>
+        <img src="./img/eu.org.jpg" alt="申请域名" style="height: 666px;">
+        <br>
+        <br>
+    </div>
+    <div>
+        2. 添加DNS解析域名【阿里云或者腾讯云等等】 (可以在eu.org申请永久免费域名) -> 链接：<a href="https://console.dnspod.cn/" target="_blank">👉腾讯云🐬</a>
+        <br>
+        阿里云 -> 链接：<a href="https://www.aliyun.com/" target="_blank">👉阿里云🐬</a>
+        <br>
+        <br>
+        <img src="./img/resolveDomain.jpg" alt="DNS解析域名" style="height: 666px;">
+        <br>
+        <br>
+    </div>
+    <div>
+        3. 域名解析IP地址 (有钱就买服务器，没钱就内网穿透) -> 内网穿透链接：<a href="https://www.natfrp.com/" target="_blank">👉内网穿透🐬</a>
+        <br>
+        服务器购买也有很多：阿里、腾讯、微软、谷歌等等等...
+        <br>
+        <br>
+        <img src="./img/frp.jpg" alt="DNS解析域名" style="height: 666px;">
+        <p>
+            腾讯云添加域名后  添加记录【还有frp创建隧道】
+            温馨提示：创建的隧道类型为HTTP/HTTPS的话，腾讯云添加记录 一般是添加一个IPV4的IP地址【A】
+            <br>
+            创建的隧道类型为TCP/UDP的话，腾讯云添加记录 一般是添加SRV服务【SRV】其他的自己看。。。
+
+        </p>
+        <img src="./img/addfrp.jpg" alt="创建隧道" style="height: 666px;">
+        <img src="./img/tunnel.jpg" alt="隧道" style="height: 666px;">
+        <img src="./img/DNS.jpg" alt="添加记录" style="height: 666px;">
+        <br>
+        <br>
+    </div>
+    <div>
+        4. 需要把项目中的域名、端口换成自己的域名、端口
+        <br>
+        <br>
+        <img src="./img/your_port_domain.jpg" alt="端口_域名" style="height: 666px;">
+        <br>
+        <br>
+    </div>
+    <div>
+        5. 需要把项目中的QQ邮箱服务换成自己的【请合法使用我的邮箱，谢谢！！！】-> QQ邮箱：<a href="https://wx.mail.qq.com/" target="_blank">👉QQ邮箱🐬</a>
+        <br>
+        <br>
+        <img src="./img/qqEmail.jpg" alt="QQ邮箱服务" style="height: 666px;">
+        <img src="./img/qqEmail01.jpg" alt="QQ邮箱服务" style="height: 666px;">
+        <img src="./img/qqEmail02.jpg" alt="QQ邮箱服务" style="height: 666px;">
+        <img src="./img/qqEmail03.jpg" alt="QQ邮箱服务" style="height: 666px;">
+        <br>
+        <br>
+    </div>
+    <div>
+        6. 配置数据库【使用MySQL，SQL，MogoDB都可以】-> 以MySQL为例：<a href="https://www.mysql.com/" target="_blank">👉MySQL🐬</a>
+        <br>
+        <br>
+        <img src="./img/mysqlConfig.jpg" alt="MySQL" style="height: 666px;">
+        <img src="./img/mysqlConfig00.jpg" alt="MySQL" style="height: 666px;">
+        <img src="./img/mysqlConfig01.jpg" alt="MySQL" style="height: 666px;">
+        <img src="./img/mysqlConfig02.jpg" alt="MySQL" style="height: 666px;">
+        <p style="color: blue;">配置url和users这些问题【名字需要根据代码来改变】，需要根据自己情况来设置，跟我一样也行/dog</p>
+        <img src="./img/mysqlConfig03.jpg" alt="MySQL" style="height: 666px;">
+        <img src="./img/mysqlConfig04.jpg" alt="MySQL" style="height: 666px;">
+        <br>
+        <br>
+    </div>
+    <div>
+        7. 启动项目【全局安装nodemon，安装命令是: npm i nodemon -g】终端输入 nodemon .js文件路径，运行即可
+        <br>
+        <br>
+        <img src="./img/start.jpg" alt="QQ邮箱服务" style="height: 666px;">
+        <img src="./img/login.jpg" alt="QQ邮箱服务" style="height: 666px;">
+        <br>
+    </div>
+</body>
+</html>
